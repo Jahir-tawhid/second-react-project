@@ -1,5 +1,5 @@
 import "./App.css";
-import Root from "./Root";
+import Root from "./layouts/Root";
 
 function App() {
   return (
