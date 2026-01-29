@@ -1,7 +1,9 @@
+import HeroSection from "../components/ui/HeroSection";
+
 const Home = () => {
   return (
     <div>
-      <h1>home compo...</h1>
+      <HeroSection />
     </div>
   );
 };
