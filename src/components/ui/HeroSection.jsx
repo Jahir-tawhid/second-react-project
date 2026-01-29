@@ -1,7 +1,7 @@
 const HeroSection = () => {
   return (
     <div
-      className="flex flex-col items-center justify-center text-white bg-amber-800 h-screen px-4"
+      className="flex flex-col items-center justify-center text-white bg-amber-800 min-h-screen px-4"
       style={{
         backgroundImage: "url('/src/assets/bg-img.png')",
         backgroundSize: "cover",

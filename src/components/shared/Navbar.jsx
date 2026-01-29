@@ -25,6 +25,7 @@ const Navbar = () => {
       <div className="w-full flex justify-between items-center px-6">
         {/* Logo Container */}
         <h2 className="text-xl font-bold">Simple React</h2>
+
         {/* Mobile menu toggle icon */}
         <div onClick={toggleMenu} className="md:hidden cursor-pointer">
           {isOpen ? <IoCloseSharp size={24} /> : <FaBars size={24} />}
@@ -71,7 +72,7 @@ const Navbar = () => {
                     isActive(link.path)
                       ? "text-orange-400 font-bold"
                       : "text-white"
-                  } hover:text-green-300 text-lg`}
+                  } hover:text-green-600 text-lg`}
                 >
                   {link.name}
                 </Link>
